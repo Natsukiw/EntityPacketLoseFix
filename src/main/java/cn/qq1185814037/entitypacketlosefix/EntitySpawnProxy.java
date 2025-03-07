@@ -54,7 +54,7 @@ public class EntitySpawnProxy {
             toBytes.invoke(message, buf);
         } catch (Throwable e)
         {
-            EntityPacketLoseFix.LOG.log(Level.WARN, "数据包写入出错,已返回一个错误数据包,并且这个数据包不会发送给玩家", e);
+            EntityPacketLoseFix.LOG.log(Level.WARN, "Packet writing error, an error packet has been returned, and this packet will not be sent to the player", e);
             return errorPacket;
         }
         return new FMLProxyPacket(buf, "FML");

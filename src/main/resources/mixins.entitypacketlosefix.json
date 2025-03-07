@@ -3,7 +3,7 @@
   "minVersion": "0.7.12",
   "package": "cn.qq1185814037.entitypacketlosefix.mixins",
   "plugin": "cn.qq1185814037.entitypacketlosefix.MixinPlugin",
-  "refmap": "mixins.commonmod.refmap.json",
+  "refmap": "mixins.entitypacketlosefix.refmap.json",
   "target": "@env(DEFAULT)",
   "compatibilityLevel": "JAVA_8",
   "mixins": [],
