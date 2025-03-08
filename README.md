@@ -4,4 +4,4 @@ When there are many online players, I noticed that the world I am in generates N
 
 So the conclusion is that when there are many people, the MOD entity data packets are sometimes sent to other players' clients
 So it is difficult to reproduce this BUG
-Basically, this fix is ​​to bypass Forge's physical package system
+Basically, this fix is ​​to bypass Forge's entity packet sending system.
